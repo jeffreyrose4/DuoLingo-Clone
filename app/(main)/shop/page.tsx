@@ -1,10 +1,11 @@
+import Image from "next/image";
 import { redirect } from "next/navigation";
 
 import { getUserProgress } from "@/db/queries";
-import { StickyWrapper } from "@/components/sticky-wrapper";
-import { UserProgress } from "@/components/user-progress";
 import { FeedWrapper } from "@/components/feed-wrapper";
-import Image from "next/image";
+import { UserProgress } from "@/components/user-progress";
+import { StickyWrapper } from "@/components/sticky-wrapper";
+
 import { Items } from "./items";
 
 const ShopPage = async () => {
